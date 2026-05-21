@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!--
+      Apple Wallet in-app provisioning requires the
+      `com.apple.developer.payment-pass-provisioning` entitlement.
+      Apple grants it only after you submit the request form at:
+        https://developer.apple.com/contact/request/wallet-pass-payment
+      The keys below are included for reference and will fail to sign
+      until your team is approved. Uncomment after Apple approval.
+    -->
+    <!--
+    <key>com.apple.developer.payment-pass-provisioning</key>
+    <true/>
+    <key>com.apple.developer.in-app-payments</key>
+    <array>
+        <string>merchant.com.haut.poc.wallet</string>
+    </array>
+    -->
+</dict>
+</plist>
