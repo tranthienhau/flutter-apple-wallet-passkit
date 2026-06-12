@@ -13,6 +13,17 @@ mocked so the project runs offline without licenses or production
 secrets. The shapes of the APIs, the iOS delegate flow, and the
 entitlement workflow are real and production-faithful.
 
+## Demo
+
+Real iOS-Simulator captures from the running app (not mockups). See
+[FLOW.md](FLOW.md) for how they are regenerated.
+
+| Wallet | Transactions | Settings |
+|---|---|---|
+| ![Wallet](screenshots/01-wallet.png) | ![Transactions](screenshots/02-transactions.png) | ![Settings](screenshots/03-settings.png) |
+
+![Demo](screenshots/demo.gif)
+
 ## Architecture
 
 ```
